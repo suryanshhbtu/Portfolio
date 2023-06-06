@@ -51,12 +51,15 @@
 }
 
 .header a:hover {
-  color: #eec0a0;
+  color: #4596ed;
 }
-
+.header a.active {
+  background-color: white;
+  color: black;
+}
 .header button:hover {
-  background-color: #eec0a0;
-  color: #dd8446;
+  background-color: #4596ed;
+  color: #04478f;
 }
 
 

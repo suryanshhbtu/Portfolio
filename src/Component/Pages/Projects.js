@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import React from "react";
-import ProjectCard from '../../Cards/ProjectCard';
+import ProjectCard from '../Cards/ProjectCard';
 
 const Projects = () => {
   const projects = [

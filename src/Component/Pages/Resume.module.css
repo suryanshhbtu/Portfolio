@@ -1,0 +1,31 @@
+.div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button{
+  color: whitesmoke;
+  display: inline-block;
+  font-size: 2rem;
+  border-radius: 0.75rem;
+  background-color: #034A72;
+  margin: 2%;
+  padding: 1%;
+}
+.img {
+  margin-left: 25%;
+  margin-right: 10%;
+  height: 1200px;
+  width: 800px;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+.img {
+  margin: 0%;
+  min-height: 500px;
+  max-height: 600px;
+  width: 100%;
+}
+}

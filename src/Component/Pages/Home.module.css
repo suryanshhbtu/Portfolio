@@ -1,20 +1,12 @@
-.fragment{
-  margin-top: 2%;
-  width: 50%;
-  height: auto;
-  background-color: #034A72;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 1rem;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  color: aliceblue;
 
+.intro{
+  
+  margin: 2%;
+  display: flex;
+  float: left;
+  padding: 2%;
 }
-
 .header {
-  margin-top: 2%;
-  width: 50%;
   height: auto;
   background-color: #034A72;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
@@ -24,6 +16,7 @@
   display: flex;
   padding: 10px;
   color: aliceblue;
+  margin: auto;
 }
 
 .p {
@@ -35,7 +28,24 @@
   padding: 18px;
 }
 
+
 .img{
-  max-height: 100px;
-  max-width: 100px; 
+  max-height: 400px;
+  max-width: 400px; 
+  margin: 1%;
+  vertical-align: middle;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .intro{
+    display: block;
+  }
+  .img{
+    
+  max-height: auto;
+  max-width: auto; 
+  vertical-align: middle;
+  }
 }

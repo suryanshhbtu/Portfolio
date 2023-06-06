@@ -11,10 +11,11 @@ const ProjectCard = (props) => {
                         <li className={classes.projectName}>{props.projectName}</li>
                         <br></br>
                         <li className={classes.projectDesc}>{props.projectDesc}</li>
+                        <br/>
                         <li className={classes.projectTech}>{props.projectTech}</li>
                     </ul>
                 </div>
-                <img className = {classes.image} src={require(`../../res/${props.projectImg}`)}></img>
+                <img className = {classes.image} src={require(`../../res/${props.projectImg}`)} alt={props.projectName}></img>
             </div>
         </Fragment>
     );

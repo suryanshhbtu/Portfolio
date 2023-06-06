@@ -27,6 +27,9 @@ const MainNavigation = () => {
           {showMenu ? <FiX /> : <FiMenu />}
         </div>
         <ul className={showMenu ? classes.nav_link_active : classes.nav_link} >
+        <li onClick={closeMenu} className={classes.nav_item}>
+            <NavLink to='/'>Home</NavLink>
+          </li>
           <li onClick={closeMenu} className={classes.nav_item}>
             <NavLink to='/projects'>Projects</NavLink>
           </li>
