@@ -24,6 +24,7 @@ function App() {
           <Resume/>
         </Route>
       </Switch>
+
     </Layout>
   );
 }

@@ -1,0 +1,46 @@
+body {
+    --white: #034A72;
+    --background: var(--blue);
+    --accent: var(--white);
+  
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
+  }
+  
+  
+  
+  ul {
+    display: flex;
+    list-style: none;
+    max-height: 600px;
+    width: 80%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 8px 0px;
+    flex: 0 0 600px;
+    margin: 0 auto;
+
+  }
+  
+  li{
+    padding: 4%;
+  }
+  /*Fancy scrollbar  */
+  ::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: #fff3;
+    -webkit-border-radius: 1ex;
+  }
+  
+  /* scroll bar inside bar */
+  ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    -webkit-border-radius: 1ex;
+  }
+  /* make scrollbar end */
+  li:last-of-type {
+    margin: 0;
+  }
+  

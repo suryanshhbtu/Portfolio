@@ -3,19 +3,18 @@ import React from "react";
 import classes from "./ProjectCard.module.css";
 const ProjectCard = (props) => {
     return (
-        <Fragment className={classes.Fragment}>
+        <Fragment className={classes.fragment}>
 
             <div className={classes.header}>
-                <div>
-                    <ul className={classes.list}>
-                        <li className={classes.projectName}>{props.projectName}</li>
-                        <br></br>
-                        <li className={classes.projectDesc}>{props.projectDesc}</li>
-                        <br/>
-                        <li className={classes.projectTech}>{props.projectTech}</li>
-                    </ul>
+                <div className={classes.p}>
+                        <p className={classes.projectName}>{props.projectName}</p>
+                    <img className = {classes.image} src={require(`../../res/${props.projectImg}`)} alt={props.projectName}></img>
+                        
+                        <p className={classes.projectDesc}>{props.projectDesc}</p>
+                       
+                        <p className={classes.projectTech}>{props.projectTech}</p>
+                    
                 </div>
-                <img className = {classes.image} src={require(`../../res/${props.projectImg}`)} alt={props.projectName}></img>
             </div>
         </Fragment>
     );

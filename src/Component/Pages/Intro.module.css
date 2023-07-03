@@ -1,0 +1,51 @@
+
+.intro{
+  
+  margin: 2%;
+  display: flex;
+  float: left;
+  padding: 2%;
+}
+.header {
+  height: auto;
+  background-color: #034A72;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  color: aliceblue;
+  margin: auto;
+}
+
+.p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  color: white;
+  margin: 0;
+  align-items: left;
+  padding: 18px;
+}
+
+
+.img{
+  max-height: 400px;
+  max-width: 400px; 
+  margin: 1%;
+  vertical-align: middle;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .intro{
+    display: block;
+  }
+  .img{
+    
+  max-height: auto;
+  max-width: auto; 
+  vertical-align: middle;
+  }
+}
