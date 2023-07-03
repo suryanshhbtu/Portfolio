@@ -1,4 +1,4 @@
-import { Fragment } from 'react';
+
 import React from "react";
 import AboutMeHome from './AboutMeHome';
 import Projects from './Projects';
@@ -7,10 +7,9 @@ import SubHeading from './Home/SubHeading';
 import Achievements from './Achievements';
 import Resume from './Resume';
 import Intro from './Intro';
-import classes from './Home.module.css';
 
-import { Animator, Fade, FadeIn, FadeOut, MoveIn, MoveOut, ScrollContainer, ScrollPage, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, batch } from 'react-scroll-motion';
-const Home = (props) => {
+import { Animator, Fade, FadeIn, MoveOut, ScrollContainer, ScrollPage, StickyIn, Zoom, ZoomIn, batch } from 'react-scroll-motion';
+const Home = () => {
 
   const zoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 
@@ -32,6 +31,7 @@ const Home = (props) => {
           <SkillList />
         </Animator>
       </ScrollPage>
+      
           <SubHeading heading="PROJECTS" />
           <Projects />
       <SubHeading heading="ACHIEVEMENTS" />

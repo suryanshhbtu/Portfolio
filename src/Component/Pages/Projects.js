@@ -1,8 +1,6 @@
-import { Fragment, useState,useRef } from 'react';
+import {  useRef } from 'react';
 import React from "react";
 import ProjectCard from '../Cards/ProjectCard';
-import { Animator, Fade, FadeIn, FadeOut, MoveIn, MoveOut, ScrollContainer, ScrollPage, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, batch } from 'react-scroll-motion';
-import { motion, useScroll } from "framer-motion";
 import classes from "./Projects.module.css";
 
 const projects = [
@@ -36,13 +34,12 @@ const projects = [
 ]
 const Projects = () => {
   const ref = useRef(null);
-  const { scrollXProgress } = useScroll({ container: ref });
   return (
     <>
       <svg id="progress" width="100" height="100" viewBox="0 0 100 100">
        
       </svg>
-      <ul ref={ref}>
+      <ul ref={ref} className={classes.list}>
       {projects.map((project) => {
         return (
           <li><ProjectCard
@@ -55,19 +52,6 @@ const Projects = () => {
       </ul>
     </>
   );
-  // return (
-  //   <Fragment>
-  //     {projects.map((project) => {
-  //       return (
-  //         <ProjectCard
-  //           projectName={project.projectName}
-  //           projectDesc={project.projectDesc}
-  //           projectTech={project.projectTech} 
-  //           projectImg = {project.projectImg}/>
-  //      )
-  //     })}
-  //   </Fragment>
-  // );
 };
 
 export default Projects;

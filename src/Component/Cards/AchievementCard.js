@@ -6,12 +6,10 @@ const AchievementCard = (props) => {
         <Fragment className={classes.Fragment}>
 
             <div className={classes.header}>
-                <div>
-                    <ul className={classes.list}>
-                        <li className={classes.name}>{props.achievementName}</li>
-                    </ul>
+                <div className={classes.list}>
+                        <p className={classes.name}>{props.achievementName}</p>
+                        <img className={classes.image} alt = {props.achievementName} src={require(`../../res/${props.achievementImg}`)}></img>
                 </div>
-                <img className = {classes.image} src={require(`../../res/${props.achievementImg}`)}></img>
             </div>
         </Fragment>
     );

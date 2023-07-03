@@ -14,7 +14,7 @@
   align-items: center;
   color: aliceblue;
   text-align: center; 
-  padding: 4%;
+  padding: 5%;
   min-width: 450px;
   
 }
@@ -39,4 +39,17 @@ padding: 1%;
   font-weight: bold;
   color: white;
   margin: 0;
+}
+@media screen and (max-width: 600px) {
+
+.header {
+    padding: 5%;
+  min-width: 200px;
+  
+}
+
+  .image{
+    max-width: 80%;
+    max-height: 100px;
+  }
 }

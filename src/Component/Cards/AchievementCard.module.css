@@ -6,7 +6,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 100%;
+  padding: 5%;
   background-color: #034A72;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
@@ -23,9 +24,10 @@
 }
 
 .image{
-  max-width: 700px;
-  max-height: 700px;
+  max-width: 400px;
+  max-height: 400px;
 padding: 2%;
+
 }
 
 .name {
