@@ -8,7 +8,7 @@ const AboutMeHome = (props) => {
   return (
     <Fragment>
       <div className={classes.header}>
-      <p className={classes.p}><h2> Interests</h2><br/></p>
+      {/* <p className={classes.p}><h2> Interests</h2><br/></p> */}
          <p className={classes.p}> Passionate about Data Structures and Algorithms: Excelling in Problem Solving.</p>
         <br />
         <p className={classes.p}>Task Completion Commitment: Dedicated to Seeing Projects Through.</p>

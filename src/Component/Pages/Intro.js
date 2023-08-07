@@ -24,12 +24,13 @@ const Intro = () => {
           whileTap={{ scale: 0.90 }} />
         <motion.div className={classes.header} animate={{ x: 20 }}>
           <p className={classes.p}>Welcome to my dynamic and visually captivating portfolio website! <br />
-            <h1>This Is Suryansh Srivastava,</h1>
+            <p className={classes.innerPara}><h1>This Is Suryansh Srivastava,</h1>
             A final-year B.Tech student at HBTU Kanpur.<br />
             I am thrilled to have you here as I showcase my skills, experiences,
             and ambitions in the software field. With a keen interest in learning
             new technologies and a passion for continuous growth,<br />
             I am ready to demonstrate my capabilities and explore exciting opportunities.
+            </p>
           </p>
         </motion.div>
       </div>

@@ -22,6 +22,8 @@ const Home = () => {
       </ScrollPage>
       <ScrollPage page={1}>
         <Animator animation={Zoom(0.5)}>
+          
+        <SubHeading heading="INTERESTS" />
           <AboutMeHome />
         </Animator>
       </ScrollPage>
