@@ -36,9 +36,9 @@ const MainNavigation = () => {
           <li onClick={closeMenu} className={classes.nav_item}>
             <NavLink to='/achievements'>Achievements</NavLink>
           </li>
-          <li onClick={closeMenu} className={classes.nav_item}>
+          {/* <li onClick={closeMenu} className={classes.nav_item}>
             <NavLink to='/profile'>Profile</NavLink>
-          </li>
+          </li> */}
           <li onClick={closeMenu} className={classes.nav_item}>
             <NavLink to='/Resume'>Resume</NavLink>
           </li>

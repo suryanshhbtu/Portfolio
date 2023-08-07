@@ -8,9 +8,6 @@
   align-items: center;
   padding: 10 10%;
   color: aliceblue;
-  
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 .logo {
@@ -26,10 +23,10 @@
   list-style: none;
   font-size: 1.25rem;
   color: white;
-  margin: 0;
-  padding: 0px;
   display: flex;
   align-items: baseline;
+  margin-left: -50%;
+  overflow: visible;
 }
 
 .header li {
