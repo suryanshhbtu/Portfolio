@@ -8,6 +8,9 @@
   align-items: center;
   padding: 10 10%;
   color: aliceblue;
+  
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .logo {
